@@ -1,4 +1,4 @@
-package ah.hathi.simpleweather;
+package com.simple.weather.app;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -14,11 +14,11 @@ public class WeatherActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_weather);
+        setContentView(com.simple.weather.app.R.layout.activity_weather);
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new WeatherFragment())
+                    .add(com.simple.weather.app.R.id.container, new WeatherFragment())
                     .commit();
         }
     }

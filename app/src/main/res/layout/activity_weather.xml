@@ -3,7 +3,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ah.hathi.simpleweather.WeatherActivity"
+    tools:context="com.simple.weather.app.WeatherActivity"
     tools:ignore="MergeRootFrame"
     android:background="#FF0099CC"
     />

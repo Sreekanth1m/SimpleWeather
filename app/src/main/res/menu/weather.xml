@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="ah.hathi.simpleweather.WeatherActivity" >
+    tools:context="com.simple.weather.app.WeatherActivity" >
 
     <item
         android:id="@+id/change_city"

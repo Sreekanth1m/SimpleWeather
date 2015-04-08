@@ -1,4 +1,4 @@
-package ah.hathi.simpleweather;
+package com.simple.weather.app;
 
 import android.app.Activity;
 import android.content.SharedPreferences;

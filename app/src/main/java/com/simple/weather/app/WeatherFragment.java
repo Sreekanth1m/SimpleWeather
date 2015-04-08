@@ -1,4 +1,4 @@
-package ah.hathi.simpleweather;
+package com.simple.weather.app;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -6,7 +6,7 @@ import java.util.Locale;
 
 import org.json.JSONObject;
 
-import android.app.Activity;
+//import android.app.Activity;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;

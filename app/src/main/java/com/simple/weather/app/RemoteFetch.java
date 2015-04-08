@@ -1,4 +1,4 @@
-package ah.hathi.simpleweather;
+package com.simple.weather.app;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -8,7 +8,7 @@ import java.net.URL;
 import org.json.JSONObject;
 
 import android.content.Context;
-import android.util.Log;
+//import android.util.Log;
 
 public class RemoteFetch {
 
@@ -22,7 +22,7 @@ public class RemoteFetch {
 					(HttpURLConnection)url.openConnection();
 			
 			connection.addRequestProperty("x-api-key", 
-					context.getString(R.string.open_weather_maps_app_id));
+					context.getString(com.simple.weather.app.R.string.open_weather_maps_app_id));
 			
 			BufferedReader reader = new BufferedReader(
 					new InputStreamReader(connection.getInputStream()));
